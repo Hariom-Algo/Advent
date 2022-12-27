@@ -1,0 +1,12 @@
+{
+  "name": "hsinghadvent",
+  "version-string": "2022",
+  "dependencies": [
+    "fmt",
+    "tl-ranges",
+    "ctre",
+    "boost",
+    "scnlib",
+    "range-v3"
+  ]
+}
