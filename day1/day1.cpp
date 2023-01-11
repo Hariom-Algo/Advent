@@ -66,10 +66,10 @@ int main()
 	auto durationMs = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
 	std::cout << "\Solution 1 executed in " << durationMs.count() << " ms.\n\n";
 	cout << "\n";
-	auto start = std::chrono::high_resolution_clock::now();
+	start = std::chrono::high_resolution_clock::now();
 	solution2();
-	auto stop = std::chrono::high_resolution_clock::now();
-	auto durationMs = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
+	stop = std::chrono::high_resolution_clock::now();
+	durationMs = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
 	std::cout << "\nSolution 2 executed in " << durationMs.count() << " ms.\n\n";
  	return 0;
 }

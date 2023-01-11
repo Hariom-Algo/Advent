@@ -13,6 +13,16 @@ find_package(ctre CONFIG REQUIRED)
 find_package(Boost REQUIRED COMPONENTS program_options regex )
 
 find_package(fmt CONFIG REQUIRED)
+#include other C++ Practise
+add_subdirectory ("stl1")
+add_subdirectory ("stl2")
+add_subdirectory ("stl3")
+add_subdirectory ("stl4")
+add_subdirectory ("stl5")
+
+
+add_subdirectory ("kata")
+
 # Include sub-projects.
 add_subdirectory ("day1")
 add_subdirectory ("day2")
